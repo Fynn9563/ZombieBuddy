@@ -1,90 +1,18 @@
 {
-  "updated_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-10-03T12:35:10Z",
   "authors": [
-    {
-      "id": 76561198043849998,
-      "keys": [
-        "c0fe7daaa1fbd1ee54096d96669a7bbb10cd0a2ad08949d664d4804c50e34db1"
-      ],
-      "name": "Zed"
-    },
-    {
-      "id": 76561198063443193,
-      "keys": [
-        "f121bcb87764ccc56466f74b68295e04b69ebfedee0b73b67813346f16f43e67"
-      ],
-      "name": "enry of alitz"
-    },
-    {
-      "id": 76561198138070597,
-      "keys": [
-        "be6633706dcd21475cf4e74ed47e2c7621d69da78213d164272a80016a6a45e3"
-      ],
-      "name": "gm.outside"
-    },
-    {
-      "id": 76561199150528543,
-      "keys": [
-        "ce7e3614b929c28f22d38bada9de999f7253b1b1c3554434d67e8e41e574cace"
-      ],
-      "name": "Koji"
-    },
-    {
-      "id": 76561198146270079,
-      "keys": [
-        "1987f95772831b20215bbef4481cd8e42140e17c30869b7bf87d9773f51f3c89"
-      ],
-      "name": "ILC233"
-    },
-    {
-      "id": 76561199128207983,
-      "keys": [
-        "760e7ced774b4e88e6f6789c266985e50e3b772992a9250c6a985b01453fff4b"
-      ],
-      "name": "Saint"
-    },
-    {
-      "id": 76561198258764906,
-      "keys": [
-        "0f99c4e5bfe0c9de71569c31bd627001aa17e9a714f9abe39038d0e51d176f88"
-      ],
-      "name": "老余"
-    },
-    {
-      "id": 76561198090292133,
-      "keys": [
-        "a140d928eed497c39427d85fb849a202e883146cca5dbfd3c8949796e1f7146a"
-      ],
-      "name": "Xutu"
-    },
-    {
-      "id": 76561198273218719,
-      "name": "IKappaID",
-      "keys": [
-        "465dda4ba32a507acfa85ce6952bdcc4ab3f0f389c0cf5a85f86f7e6762ea785"
-      ]
-    },
-    {
-      "id": 76561197988649366,
-      "name": "Kio-",
-      "keys": [
-        "0ae56541e4aa658a2c907845f721ae0476b5e32b5d042c5107c5c352cb836116"
-      ]
-    },
-    {
-      "id": 76561198061324182,
-      "name": "Aftermath Systems",
-      "keys": [
-        "989ac279f40f1a35fa0616645e319fc44cde9a15a842b7c365870147bfff3ce0"
-       ]
-    },
-    {
-      "id": 76561198205856420,
-      "name": "GamerKreep",
-      "keys": [
-        "0a85a070765317a4d4d7c72ff048f0dcdca133f3f3f282c2c280cc73f01f1ea2"
-      ]
-    }
+    {"name":"Aftermath Systems","id":76561198061324182,"keys":["989ac279f40f1a35fa0616645e319fc44cde9a15a842b7c365870147bfff3ce0"]},
+    {"name":"enry of alitz","id":76561198063443193,"keys":["f121bcb87764ccc56466f74b68295e04b69ebfedee0b73b67813346f16f43e67"]},
+    {"name":"GamerKreep","id":76561198205856420,"keys":["0a85a070765317a4d4d7c72ff048f0dcdca133f3f3f282c2c280cc73f01f1ea2"]},
+    {"name":"gm.outside","id":76561198138070597,"keys":["be6633706dcd21475cf4e74ed47e2c7621d69da78213d164272a80016a6a45e3"]},
+    {"name":"IKappaID","id":76561198273218719,"keys":["465dda4ba32a507acfa85ce6952bdcc4ab3f0f389c0cf5a85f86f7e6762ea785"]},
+    {"name":"ILC233","id":76561198146270079,"keys":["1987f95772831b20215bbef4481cd8e42140e17c30869b7bf87d9773f51f3c89"]},
+    {"name":"Kio-","id":76561197988649366,"keys":["0ae56541e4aa658a2c907845f721ae0476b5e32b5d042c5107c5c352cb836116"]},
+    {"name":"Koji","id":76561199150528543,"keys":["ce7e3614b929c28f22d38bada9de999f7253b1b1c3554434d67e8e41e574cace"]},
+    {"name":"Saint","id":76561199128207983,"keys":["760e7ced774b4e88e6f6789c266985e50e3b772992a9250c6a985b01453fff4b"]},
+    {"name":"Xutu","id":76561198090292133,"keys":["a140d928eed497c39427d85fb849a202e883146cca5dbfd3c8949796e1f7146a"]},
+    {"name":"Zed","id":76561198043849998,"keys":["c0fe7daaa1fbd1ee54096d96669a7bbb10cd0a2ad08949d664d4804c50e34db1"]},
+    {"name":"老余","id":76561198258764906,"keys":["0f99c4e5bfe0c9de71569c31bd627001aa17e9a714f9abe39038d0e51d176f88"]}
   ],
-  "signature": "5a0ba3a40b8fac0e107cae41626e8765d5fcb3d61e624d20a3ad1d5228498bd67c7423e57d242524871ec748cd96be16cc5621ffa6edb58859a92c66d0421006"
+  "signature": "ab509f894f8568442cca144f251f2a5bcd9c890ec3fc2f8568ab05006e834d2538c83b1e9ed264e9b30de96dc2863069e033bff3d1e3437989ccec7975eb360c"
 }
