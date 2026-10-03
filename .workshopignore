@@ -6,7 +6,9 @@
 *.rake
 *.xcf
 *-plain.jar
+experimental.jar
 out.jar
+patches.jar
 test*.jar
 
 .classpath
