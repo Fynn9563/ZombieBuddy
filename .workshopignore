@@ -4,6 +4,7 @@
 *.local
 *.rb
 *.rake
+*.sh
 *.xcf
 *-plain.jar
 experimental.jar
@@ -20,6 +21,7 @@ test*.jar
 names.yml
 Rakefile
 
+authors
 build
 lib
 misc
