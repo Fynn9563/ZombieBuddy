@@ -31,10 +31,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.bytebuddy:byte-buddy:1.18.8'
-    implementation 'net.bytebuddy:byte-buddy-agent:1.18.8'
-//    implementation 'org.ow2.asm:asm:9.9.1'
-    implementation 'org.ow2.asm:asm-tree:9.9.1'                   // XXX should match version.asm in byte-buddy's pom.xml
+    implementation 'net.bytebuddy:byte-buddy:1.18.14'
+    implementation 'net.bytebuddy:byte-buddy-agent:1.18.14'
+//    implementation 'org.ow2.asm:asm:9.10.1'
+    implementation 'org.ow2.asm:asm-tree:9.10.1'                   // XXX should match version.asm in byte-buddy's pom.xml
     implementation 'org.bouncycastle:bcprov-jdk18on:1.78.1'
     implementation 'com.google.code.gson:gson:2.12.1'
 
