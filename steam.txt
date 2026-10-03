@@ -112,7 +112,7 @@ Examples (block form, these go into Steam launch options):
     Yes - install [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3709229404]Zed's Better ModList[/url] and the status is shown next to each JAR path in the mod list.
 
     [*][b]Supported game versions?[/b]
-    B41, B42.12-B42.17
+    B41, B42.12-B42.21
 
     [*][b]Can I hide ZB watermark?[/b]
     Yes, in ModOptions. During game boot it is always visible.

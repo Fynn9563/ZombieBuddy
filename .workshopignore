@@ -1,14 +1,15 @@
 # see https://github.com/zed-0xff/ZBetterWorkshopUpload
+*.class
 *.exe
 *.local
 *.rb
 *.rake
 *.xcf
 *-plain.jar
+out.jar
 test*.jar
 
 .classpath
-.claude
 .cursor
 .gradle
 .project
@@ -21,3 +22,7 @@ build
 lib
 misc
 tmp
+
+.mcp.json
+.claude*
+CLAUDE.md
