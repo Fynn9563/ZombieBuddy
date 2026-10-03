@@ -28,6 +28,12 @@ namespace :authors do
     authors = authors.map { |a| { "name" => a['name'], "id" => a['id'], "keys" => a['keys'] } }
 
     data = JSON.parse(File.read("authors.json"))
+
+    if authors == data['authors']
+      puts "authors.json unchanged, skipping sign"
+      next
+    end
+
     data['updated_at'] = Time.now.utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     authors_block = authors.map { |a| "    #{JSON.generate(a)}" }.join(",\n")
