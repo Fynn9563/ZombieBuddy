@@ -85,23 +85,23 @@ Important: Steam identity is not magic security. It answers "is this the same au
 
 ## Known Authors And `authors.json`
 
-ZombieBuddy can load a known authors list from `authors.json`. The file contains entries like:
+ZombieBuddy can load a known authors list from `authors.json`. Entries look like:
 
 ```json
-[
-  {
-    "id": 76561198012345678,
-    "name": "Author name",
-    "keys": ["64 hex public key"]
-  }
-]
+{
+  "id": 76561198012345678,
+  "name": "Author name",
+  "keys": ["64 hex public key"]
+}
 ```
 
-This list gives ZombieBuddy a stable mapping from SteamID64 to display name and public signing keys. ZombieBuddy syncs it from GitHub and caches it in the ZombieBuddy config directory, so new author entries can be added without publishing a ZombieBuddy mod update, and verification can still work when the remote list is temporarily unavailable.
+`authors.json` is a generated, signed file. Its source of truth is the `authors/` directory, which holds one JSON file per author (e.g. `authors/author-name.json`). The `authors.json` file is rebuilt from `authors/*.json` and re-signed whenever the mod is built.
+
+This list gives ZombieBuddy a stable mapping from SteamID64 to display name and public signing keys. ZombieBuddy syncs `authors.json` from GitHub and caches it in the ZombieBuddy config directory, so new author entries can be added without publishing a ZombieBuddy mod update, and verification can still work when the remote list is temporarily unavailable.
 
 When an author has keys in `authors.json`, those keys are authoritative. ZombieBuddy tries them before falling back to reading `JavaModZBS:<key>` from the author's Steam profile.
 
-Authors who want to keep their Steam profile private can submit a pull request to add their SteamID64, display name, and public key to `authors.json` instead of publishing `JavaModZBS:<key>` on their profile.
+Authors who want to keep their Steam profile private can submit a pull request to add their SteamID64, display name, and public key instead of publishing `JavaModZBS:<key>` on their profile. Do this by adding a new file to `authors/` (named after the author, e.g. `authors/author-name.json`), not by editing `authors.json` directly — that file is regenerated from `authors/` and any direct edits to it will be overwritten.
 
 ### Why not just use the Steam profile name?
 
