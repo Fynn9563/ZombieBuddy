@@ -22,17 +22,19 @@ config.watermarkOpacity.onChange = onChangeWatermarkOpacity
 -- ---------------------------------------------------------------------------
 
 local function applySettings()
-    if ZombieBuddy.setAutoFixModOrder then
-        ZombieBuddy.setAutoFixModOrder(config.autoFixModOrder:getValue())
-    end
-    if ZombieBuddy.setFixApprovalDialogCursor then
-        ZombieBuddy.setFixApprovalDialogCursor(config.fixApprovalDialogCursor:getValue())
-    end
-    if ZombieBuddy.Watermark and ZombieBuddy.Watermark.setAlpha then
-        ZombieBuddy.Watermark.setAlpha(config.watermarkOpacity:getValue())
-    end
-    if ZombieBuddy.Patches and ZombieBuddy.Patches.GameLoadingState and ZombieBuddy.Patches.GameLoadingState.setSuppressSandboxLog then
-        ZombieBuddy.Patches.GameLoadingState.setSuppressSandboxLog(config.suppressSandboxLog:getValue())
+    if ZombieBuddy then
+        if ZombieBuddy.setAutoFixModOrder then
+            ZombieBuddy.setAutoFixModOrder(config.autoFixModOrder:getValue())
+        end
+        if ZombieBuddy.setFixApprovalDialogCursor then
+            ZombieBuddy.setFixApprovalDialogCursor(config.fixApprovalDialogCursor:getValue())
+        end
+        if ZombieBuddy.Watermark and ZombieBuddy.Watermark.setAlpha then
+            ZombieBuddy.Watermark.setAlpha(config.watermarkOpacity:getValue())
+        end
+        if ZombieBuddy.Patches and ZombieBuddy.Patches.GameLoadingState and ZombieBuddy.Patches.GameLoadingState.setSuppressSandboxLog then
+            ZombieBuddy.Patches.GameLoadingState.setSuppressSandboxLog(config.suppressSandboxLog:getValue())
+        end
     end
 end
 
